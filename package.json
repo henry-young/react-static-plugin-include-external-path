@@ -1,0 +1,39 @@
+{
+  "name": "react-static-plugin-include-external-path",
+  "version": "1.0.0",
+  "description": "A React-Static plugin that adds external path support for webpack imports",
+  "main": "node.api.js",
+  "private": false,
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "watch": "yarn build --watch",
+    "test": "yarn format",
+    "format": "prettier src/**/*.js --write",
+    "preversion": "yarn build",
+    "prepublishOnly": "yarn build"
+  },
+  "peerDependencies": {
+    "react-static": "^7.2.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "react-static": "^7.2.2",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "chokidar": "^3.0.2",
+    "glob": "^7.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henry-young/react-static-plugin-include-external-path.git"
+  },
+  "author": "Henry Young",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henry-young/react-static-plugin-include-external-path/issues"
+  },
+  "homepage": "https://github.com/henry-young/react-static-plugin-include-external-path#readme"
+}

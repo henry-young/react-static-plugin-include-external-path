@@ -1,0 +1,7 @@
+.history
+node_modules
+/node.api.js
+/browser.api.js
+.idea
+*.log
+.DS_Store
