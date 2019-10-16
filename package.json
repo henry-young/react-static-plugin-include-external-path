@@ -1,6 +1,6 @@
 {
   "name": "react-static-plugin-include-external-path",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React-Static plugin that adds external path support for webpack imports",
   "main": "node.api.js",
   "private": false,
@@ -36,5 +36,5 @@
     "url": "https://github.com/henry-young/react-static-plugin-include-external-path/issues"
   },
   "homepage": "https://github.com/henry-young/react-static-plugin-include-external-path#readme",
-  "keywords": ["react-static", "monorepo", "plugin", "external"]
+  "keywords": ["react", "react-static", "react-static-plugin", "plugin", "monorepo",  "external"]
 }
